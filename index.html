@@ -60,7 +60,20 @@
         >
         <!--设置图片大小规格-->
     </p>
+    </p>
+    <p style="color:#f16189;">❤
+    <button id="dzs" onclick="dianZan()">0</button>
+        <script>
 
+            function dianZan(){
+                let dianZanShuBiaoQian = window.document.getElementById('dzs');
+                let dianZanShu = parseInt(dianZanShuBiaoQian.innerText);
+                let xinShuZi = dianZanShu + 1;
+                dianZanShuBiaoQian.innerText = xinShuZi;
+                return
+            }
+        </script>
+    </p>
 
 </div>
 <div style="
