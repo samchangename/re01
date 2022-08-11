@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>高亮黑猫</title>
-    <link rel="icon" href="https://samchangename.github.io/re01/gaoliang.ico">
+    <title>高亮黑猫学习</title>
+    <link rel="icon" href="https://samchangename.github.io/re01/gaoliang.ico" />
+
     <style>
       body {
         align-tracks: 0;
@@ -45,6 +46,9 @@
         font-size: 14px;
         color: #666;
       }
+      .flex2 {
+        flex-direction: row;
+      }
       /* 当屏幕宽度小于600px时要改变的css */
       @media (max-width: 600px) {
         .ceBian {
@@ -68,7 +72,7 @@
   </head>
   <body class="flex">
     <!-- 侧边栏 -->
-    <div style="width: 160px; z-index: 2" class="ceBian baiSe yinYing">
+    <div style="width: 180px; z-index: 2" class="ceBian baiSe yinYing">
       <!-- 头像栏 -->
       <div
         style="
@@ -89,10 +93,18 @@
       </div>
       <!-- 导航栏 -->
       <div class="flex1">
-        <div class="daoHang">导航</div>
-        <div class="daoHang">导航</div>
-        <div class="daoHang">导航</div>
-        <div class="daoHang">导航</div>
+        <div class="daoHang">
+          <a href="https://www.baidu.com/">百度一下</a>
+        </div>
+        <div class="daoHang">
+          <a href="https://cn.bing.com/">必应</a>
+        </div>
+        <div class="daoHang">
+          <a href="https://www.qtool.net/ico">ico在线转换工具</a>
+        </div>
+        <div class="daoHang">
+          <a href="https://github.com/">github</a>
+        </div>
       </div>
     </div>
     <!-- 主区域 -->
@@ -104,31 +116,87 @@
         <!-- 左区 -->
         <div style="flex: 3" class="flex column mg8">
           <!-- 数据区 -->
-          <div class="flex shuJuLan">
+          <div class="flex shuJuLan" style="margin: 5px">
             <!-- 数据块 -->
             <div style="height: 100px" class="shuJu flex1 baiSe mgr8 yinYing">
-              数据块
+              <div
+              >
+               <a href="https://www.runoob.com/go/go-tutorial.html">
+            <img src="./image/golang_u=2790717441,1194557648&fm=253&fmt=auto&app=120&f=JPG.webp"
+            width="100%"
+            height="100"
+            class="poorRotater 1"
+            alt="">
+            </a>
+              </div>
             </div>
             <!-- 数据块 -->
             <div
               style="height: 100px"
               class="shuJu flex1 baiSe mgr8 yinYing"
-            ></div>
+            >
+            <a href="https://www.runoob.com/python3/python3-tutorial.html">
+            <img src="./image/python_u=1347896350,782303825&fm=253&fmt=auto&app=138&f=JPEG.webp" 
+            width="100%"
+            height="100"
+            class="poorRotater 1"
+            alt="">
+            </a>
+          </div>
+            
             <!-- 数据块 -->
             <div
               style="height: 100px"
               class="shuJu flex1 baiSe mgr8 yinYing"
-            ></div>
+            >
+          <a href="https://www.bilibili.com/">
+            <img src="./image/bilibili_src=http___www.vlogzx.com_uploads_allimg_2001_24_200121204425_1.jpg&refer=http___www.vlogzx.webp" 
+            width="100%"
+            height="100"
+            class="poorRotater 1"
+            alt="">
+            </a>
+          </div>
             <!-- 数据块 -->
-            <div
-              style="height: 100px"
-              class="shuJu flex1 baiSe mgr8 yinYing"
-            ></div>
+            <div style="height: 100px" class="shuJu flex1 baiSe yinYing">
+            <a href="https://www.androiddevtools.cn/">
+            <img src="./image/android_u=1463223624,2843593200&fm=253&fmt=auto&app=120&f=JPEG.webp" 
+            width="100%"
+            height="100"
+            class="poorRotater 1"
+            alt="">
+            </a>
+          </div>
           </div>
           <!-- 列表区 -->
-          <div class="flex column">
+          <div class="flex column" style="margin: 5px">
             <!-- 列表项 -->
-            <div style="height: 160px" class="baiSe mgt8 yinYing">列表项</div>
+            <div style="height: 160px" class="baiSe mgt8 yinYing">
+              <div
+                style="
+                  text-align: center;
+                  justify-items: center;
+                  margin-top: 30px;
+                  font-size: 15px;
+                  color:rgb(94, 62, 207);
+                "
+              >
+                自我激励
+              </div>
+              <div
+                style="
+                  text-align: center;
+                  justify-items: auto;
+                  margin-top: 20px;
+                  margin-left: 50px;
+                  margin-right: 50px;
+                  font-size: 15px;
+                  color:rgb(13, 158, 224);
+                "
+              >
+                学，如逆水行舟，不进则退。要始终保持学习的态度。需要调节出时间来进行复习--温故而知新
+              </div>
+            </div>
             <div style="height: 160px" class="baiSe mgt8 yinYing"></div>
             <div style="height: 160px" class="baiSe mgt8 yinYing"></div>
             <div style="height: 160px" class="baiSe mgt8 yinYing"></div>
@@ -139,9 +207,70 @@
         <!-- 右区 -->
         <div style="flex: 1" class="you flex column mgr8 mgt8">
           <!-- 提示区 -->
-          <div style="height: 150px" class="baiSe yinYing">提示区</div>
+          <div style="height: 160px" class="baiSe yinYing">
+            <div
+              style="
+                text-align: center;
+                justify-items: center;
+                margin-top: 10px;
+                font-size: 15px;
+                color: rgb(230, 72, 146);
+              "
+            >
+              温馨提醒
+            </div>
+            <div
+              style="
+                text-align: center;
+                justify-items: center;
+                margin-top: 15px;
+                margin-left: 10px;
+                margin-right: 10px;
+                font-size: 12px;
+                color: orange;
+              "
+            >
+              本网站意在学习，提供的是静态网页服务，为了快速跳转到学习页面
+            </div>
+          </div>
           <!-- 消息区 -->
-          <div style="height: 300px" class="baiSe yinYing mgt8">消息区</div>
+          <div style="height: 300px" class="baiSe yinYing mgt8">
+            <div
+              style="
+                text-align: center;
+                justify-items: center;
+                margin-top: 10px;
+                font-size: 15px;
+                word-wrap: break-word;
+              "
+            >
+              当前无消息
+            </div>
+            <div style="height: 300px" class="baiSe yinYing mgt8">
+            <div
+              style="
+                text-align: center;
+                justify-items: center;
+                margin-top: 10px;
+                font-size: 15px;
+                word-wrap: break-word;
+              "
+            >
+              当前无消息
+            </div>
+            <div style="height: 300px" class="baiSe yinYing mgt8">
+            <div
+              style="
+                text-align: center;
+                justify-items: center;
+                margin-top: 10px;
+                font-size: 15px;
+                word-wrap: break-word;
+              "
+            >
+              当前无消息
+            </div>
+          </div>
         </div>
       </div>
     </div>
